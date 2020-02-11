@@ -6,7 +6,7 @@ public class Hola {
 
 	public static void main(String[] args) {
 		//Imprimir mensaje
-		System.out.println("Bienveido al curso");
+		System.out.println("Bienveido al curso 2020");
 		
 		//Capturar valores de la consola
 		Scanner sc = new Scanner(System.in);
