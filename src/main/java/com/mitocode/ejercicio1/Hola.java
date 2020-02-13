@@ -1,4 +1,4 @@
-package sesion01;
+package com.mitocode.ejercicio1;
 
 import java.util.Scanner;
 

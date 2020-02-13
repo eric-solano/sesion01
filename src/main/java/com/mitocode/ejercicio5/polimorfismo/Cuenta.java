@@ -1,4 +1,4 @@
-package sesion01;
+package com.mitocode.ejercicio5.polimorfismo;
 
 public class Cuenta {
 
@@ -8,8 +8,12 @@ public class Cuenta {
 	//Todas las clases heredan de la clase object
 	private String numeroCuenta;
 	private String titular;
-	private double saldo;
-
+	protected double saldo;
+	
+	public Cuenta() {
+		super();
+	}
+	
 	public Cuenta(String numeroCuenta, String titular) {
 		super();
 		this.numeroCuenta = numeroCuenta;
