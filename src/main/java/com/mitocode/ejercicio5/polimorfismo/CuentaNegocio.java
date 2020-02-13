@@ -27,7 +27,7 @@ public class CuentaNegocio extends Cuenta {
 	{
 		if(monto <= limitePrestamo)
 		{
-			saldo += monto - 10.0;
+			saldo = saldo - monto - 10.0;
 		}
 		
 	}
