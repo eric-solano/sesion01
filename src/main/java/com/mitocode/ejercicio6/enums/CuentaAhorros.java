@@ -1,4 +1,4 @@
-package com.mitocode.ejercicio5.polimorfismo;
+package com.mitocode.ejercicio6.enums;
 
 public class CuentaAhorros extends Cuenta {
 	private double tasaInteres;
@@ -21,7 +21,7 @@ public class CuentaAhorros extends Cuenta {
 	public void setTasaInteres(double tasaInteres) {
 		this.tasaInteres = tasaInteres;
 	}
-
+	
 	public void actualizarSaldo()	{
 		saldo += saldo * tasaInteres;
 	}
